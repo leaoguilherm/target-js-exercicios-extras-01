@@ -23,7 +23,7 @@ function executarTudo(){
 
     /* !!! Adicione abaixo novas chamadas de funções criadas por você !!! */
     alterarBackgroundDeElemento("boxModel01", "red")
-    alterarBorda("boxModel02", "pink")
+    alterarBorda("boxModel02", "pink solid")
     sumirBoxModel03("boxModel03")
     aparecerBoxModel04("boxModel04")
     // fazerTalCoisa()
@@ -57,7 +57,7 @@ function alterarBackgroundDeElemento(idElemento, corEscolhida){
 
 function alterarBorda(idElemento, corEscolhida){
     const elementoBoxModel02 = document.getElementById(idElemento)
-    elementoBoxModel02.style.borderColor = corEscolhida
+    elementoBoxModel02.style.border = corEscolhida
 }
 
 function sumirBoxModel03(idElemento){
